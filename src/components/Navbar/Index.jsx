@@ -17,7 +17,7 @@ function Index() {
           </div>
           <div className="pesquisar">
             <input className='input-search' type="text" placeholder='Buscar' />
-            <img src={ButtonSearch} alt="" />
+            <img className='img-button' src={ButtonSearch} alt="" />
           </div>
         </nav>
       </header>
