@@ -11,6 +11,8 @@
 body {
   margin: 8vh 10vw;
   background-color: #290742;
+  max-width: 1440px;
+  max-height: 588px;
 }
 
 .pesquisar {
