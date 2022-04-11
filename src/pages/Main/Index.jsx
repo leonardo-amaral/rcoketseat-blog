@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/Main.css'
+import { motion } from 'framer-motion'
 import Post from '../../assets/post-1.svg'
 import Post2 from '../../assets/post-2.svg'
 import Post3 from '../../assets/post-3.svg'
@@ -7,7 +8,10 @@ import Post4 from '../../assets/post-4.svg'
 
 function Index() {
   return (
-    <div className='mother-class'>
+    <motion.div className='mother-class'
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      transition={{ duration: 1 }}>
       <div className='content'>
         <div className='first-content'>
           <img className='post' src={Post} alt="" />
@@ -50,7 +54,7 @@ function Index() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

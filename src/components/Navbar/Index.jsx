@@ -2,12 +2,16 @@ import React from 'react'
 import '../../styles/Navbar.css'
 import Logo from '../../assets/logo.svg'
 import ButtonSearch from '../../assets/Button-search.svg'
+import { motion } from 'framer-motion'
 
 function Index() {
   return (
     <div>
       <header>
-        <nav>
+        <motion.nav
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1 }}>
           <img src={Logo} alt="Logo" />
           <div className='navbar-content'>
             <a href="#">Home</a>
@@ -19,7 +23,7 @@ function Index() {
             <input className='input-search' type="text" placeholder='Buscar' />
             <img className='img-button' src={ButtonSearch} alt="" />
           </div>
-        </nav>
+        </motion.nav>
       </header>
     </div>
   )
