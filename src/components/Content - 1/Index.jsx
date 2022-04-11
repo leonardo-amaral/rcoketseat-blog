@@ -15,7 +15,7 @@ function Index() {
           </div>
         </div>
         <div className="image">
-          <img className='image-content' src={Image2} alt="image" />
+          <img className='image-context' src={Image2} alt="image" />
         </div>
       </section>
     </div>

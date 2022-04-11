@@ -5,14 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
 
-body {
+.introduction {
   margin: 8vh 10vw;
-  background-color: #290742;
-  max-width: 1440px;
-  max-height: 588px;
+  width: 80vw;
+  height: 40rem;
 }
 
 .pesquisar {

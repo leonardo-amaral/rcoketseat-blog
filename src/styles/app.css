@@ -1,0 +1,17 @@
+body {
+  background-color: #290742;
+}
+
+main {
+  background-color: white;
+  border-top: 5px solid #4FFF4B;
+  height: 90rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
