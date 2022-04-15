@@ -9,8 +9,8 @@ function Index() {
     <div>
       <header>
         <motion.nav
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}>
           <img src={Logo} alt="Logo" />
           <div className='navbar-content'>
